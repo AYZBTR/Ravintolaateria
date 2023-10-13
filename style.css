@@ -1,0 +1,217 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.brandlogo{
+    display: flex;
+    height: 7rem;
+    
+}
+.Navi ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.menu-icon {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.bar {
+    background-color: #333;
+    height: 3px;
+    width: 25px;
+    margin: 3px 0;
+}
+
+@media screen and (max-width: 600px) {
+    
+    .brandlogo {
+        position:relative;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 1000; /* Ensure that the logo stays on top of other elements */
+    }
+    .Navi ul {
+        display: none;
+        flex-direction: column;
+        margin-right: 4rem;
+    }
+    
+    .Navi ul.active {
+        display: flex;
+        animation: fadeIn 1s ease; /* Add fade-in animation */
+    }
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+
+    .menu-icon {
+        display: flex;
+        position: fixed;
+        left: 10px; 
+        top: 58px; 
+        z-index: 999;
+    }
+    .hero-content {
+        background-image: url('assets/HeroImage.jpg');
+        background-size: cover;
+        background-attachment: fixed; /* Keeps the background image fixed */
+        background-position: center;
+        color: black;
+        text-align: center;
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+.Navi{
+  font-size: 1.2rem; 
+  margin-right: 10rem; 
+}
+.nav-item {
+    margin-right: 2rem; 
+}
+.hero-content {
+    background-image: url('assets/HeroImage.jpg'); 
+    background-size: cover;
+    background-position: center;
+    color: black;
+    text-align: center;
+    height: 70vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about-img-container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-right: 3rem;
+    margin-top: 8rem;
+    position: relative;
+    margin-left: 1rem;
+    
+}
+.about-img{
+    height: 680px;
+}
+.text{
+    position:absolute;
+    top:0;
+    left: 0;
+
+}
+
+.text > p{
+    color: red;
+    
+}
+.content-section-desc{
+    margin-top: 1rem;
+}
+
+.content-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+.box{
+    height: 250px;
+    width: 28%;
+    background-color: brown;
+    padding: 2rem 0 1.5rem;
+    margin-top: 1rem;
+}
+
+.box-image{
+    height: 200px;
+    width: 10%px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;  
+} 
+
+.Lunch-bg-image{
+    margin-top: 2rem;
+    background: url('./assets/lunch-bg-image.jpg');
+    background-size: cover;
+    width: 1500px;
+    height: 704px;
+    margin-left: 7%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.Lunch-box{
+    height: 400px;
+    width: 700px;
+    background-color: whitesmoke;
+    margin-left: 500px;
+    text-align: center;
+}
+  
+
+.lunch-paragraph{
+    margin-top: 1.5rem;
+}
+.lunch-paragraph p{
+ color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
