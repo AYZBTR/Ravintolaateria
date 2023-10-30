@@ -92,6 +92,8 @@
     text-align: center;
     height: 70vh; 
     display: flex;
+    margin-left: 2%;
+    margin-right: 2%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -122,6 +124,8 @@
 }
 .content-section-desc{
     margin-top: 1rem;
+    margin-left: 2%;
+
 }
 
 .content-section{
@@ -148,11 +152,12 @@
 
 .Lunch-bg-image{
     margin-top: 2rem;
-    background: url('./assets/lunch-bg-image.jpg');
+    background-image: url('./assets/lunch-bg-image.jpg');
     background-size: cover;
-    width: 1313px;
-    height: 704px;
+    /* width: 1500px;
+    height: 704px; */
     margin-left: 2%;
+    margin-right: 2%;
     
     display: flex;
     align-items: center;
@@ -181,13 +186,7 @@
 @media screen and (max-width: 600px) {
     
     .Lunch-bg-image{
-        width: 390px;
-        margin: 0px;
-        margin-top: 2rem;
-        background-size: cover;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        display: none;
     }
     .lunch-paragraph{
         display: none;
