@@ -56,7 +56,7 @@
 
     .menu-icon {
         display: flex;
-        position: fixed;
+        position:absolute;
         left: 10px; 
         top: 58px; 
         z-index: 999;
@@ -150,9 +150,10 @@
     margin-top: 2rem;
     background: url('./assets/lunch-bg-image.jpg');
     background-size: cover;
-    width: 1500px;
+    width: 1313px;
     height: 704px;
-    margin-left: 7%;
+    margin-left: 2%;
+    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -162,19 +163,40 @@
 .Lunch-box{
     height: 400px;
     width: 700px;
-    background-color: whitesmoke;
+    background-color: wheat;
     margin-left: 500px;
     text-align: center;
+    border-radius: 50%;
+    margin-bottom: 15rem;
 }
   
 
-.lunch-paragraph{
-    margin-top: 1.5rem;
-}
+
 .lunch-paragraph p{
  color: red;
+ margin-top: 8rem;
 }
 
+
+@media screen and (max-width: 600px) {
+    
+    .Lunch-bg-image{
+        width: 390px;
+        margin: 0px;
+        margin-top: 2rem;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .lunch-paragraph{
+        display: none;
+    }
+    .Lunch-box{
+        display: none;
+    }
+
+}
 
 
 
