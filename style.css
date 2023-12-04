@@ -1,5 +1,6 @@
 *{
     font-family: 'Poppins', sans-serif;
+    
 }
 
 .brandlogo{
@@ -197,24 +198,89 @@
 
 }
 
+.footer-container{
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+    
+    
+}
+
+.contact-info{
+    margin-left: 150px;
+}
+
+.opening-time{
+    margin-left: 250px;
+}
 
 
+@media screen and (max-width: 600px) {
+    .footer-container {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+        align-items: center;
+        justify-content: center;
+        
+    }
 
+    .contact-info,
+    .opening-time {
+        margin-top:10px;
+        margin-left: 0; /* Remove left margin on smaller screens */
+        text-align: center; /* Center text on smaller screens */
+        width: 100%; /* Take up full width on smaller screens */
+    }
+}
 
-
-
-
-
-
-
-
-
-footer{
+/* footer{
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 0.9rem;
+} */
+
+/* footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+} */
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
+
+
+
+/* About Us page */
+.about-us {
+   
+    border: 2px solid #000; /* Border style, adjust as needed */
+    padding: 30px; /* Add some padding inside the box */
+    max-width: 1200px; /* Set a maximum width for the box, adjust as needed */
+    margin: 0 auto; /* Center the box horizontally */
+    
+}
+
+.about-us-heading {
+    text-align: center; /* Center the heading */
+    font-weight: bolder;
+}
+
+.about-us p {
+    /* Additional styles for the paragraph, adjust as needed */
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+
+
 
 
 
