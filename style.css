@@ -108,6 +108,22 @@
     color:black;
     font-style: italic;
 }
+
+@media screen and (max-width: 600px){
+
+
+    .hero-content > h1{
+        font-size: 2rem;
+    } 
+
+    .hero-content > p{
+        font-size: 1rem;
+        color:black;
+        font-style: italic;
+    }
+}
+    
+
 .about-img-container{
     display: flex;
     justify-content: flex-end;
@@ -144,6 +160,16 @@
     justify-content: space-evenly;
     
 }
+@media screen and (max-width:600px){
+    .content-section{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    
+}
 .box{
     height: 250px;
     width: 28%;
@@ -154,11 +180,38 @@
 
 .box-image{
     height: 200px;
-    width: 10%px;
+    width: 10px;
     background-size: cover;
     margin-top: 1rem;
     margin-bottom: 1rem;  
 } 
+
+@media screen and (max-width:600px){
+    .content-section{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .box{
+        height: 250px;
+        width: 75%;
+        background-color: rgb(165, 124, 42);
+        padding: 2rem 0 1.5rem;
+        margin-top: 1rem;
+    }
+    
+    .box-image{
+        height: 200px;
+        width: 10px;
+        background-size: cover;
+        margin-top: 1rem;
+        margin-bottom: 1rem;  
+    } 
+    
+}
+
+
 
 .Lunch-bg-image{
     margin-top: 2rem;
@@ -208,19 +261,24 @@
 }
 
 .footer-container{
-    margin-top: 20px;
+    margin-top: 40px;
     margin-left: 20px;
     display: flex;
+    height: 250px;
+    width: 100%;
+    
     
     
 }
 
 .contact-info{
     margin-left: 150px;
+    margin-top: 30px;
 }
 
 .opening-time{
     margin-left: 250px;
+    margin-top: 30px;
 }
 
 
@@ -241,19 +299,7 @@
     }
 }
 
-/* footer{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 0.9rem;
-} */
 
-/* footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px;
-} */
 
 footer {
     background-color: #333;
@@ -264,6 +310,7 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
 
 
 
