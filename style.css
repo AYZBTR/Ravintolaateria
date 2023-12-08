@@ -1,5 +1,7 @@
 *{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+    margin-right: 0;
     
 }
 
@@ -69,7 +71,7 @@
         background-position: center;
         color: black;
         text-align: center;
-        height: 70vh;
+        /* height: 70vh; */
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -217,11 +219,8 @@
     margin-top: 2rem;
     background-image: url('./assets/lunch-bg-image.jpg');
     background-size: cover;
-    /* width: 1500px;
-    height: 704px; */
     margin-left: 2%;
     margin-right: 2%;
-    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -230,7 +229,7 @@
 
 .Lunch-box{
     height: 400px;
-    width: 700px;
+    /* width: 700px; */
     background-color: wheat;
     margin-left: 500px;
     text-align: center;
@@ -334,6 +333,53 @@ footer {
     font-size: 20px;
     line-height: 1.5;
 }
+
+/* Lounas Menu */
+
+.Allmenus{
+    display: flex;
+    flex-wrap: wrap;
+}
+.MaanantaiMenu{
+    margin-left: 15px;
+}
+
+.TiistaiMenu{
+    margin-left: 80px;
+    
+    
+}
+.KeskiviikkoMenu{
+    
+    margin-left: 15px;
+}
+
+.TorstaiMenu{
+    margin-left: 80px;
+    
+}
+.PerjantaiMenu{
+    margin-left: 15px;
+}
+
+
+@media screen and (max-width: 600px) {
+    .TiistaiMenu,.TorstaiMenu{
+        margin-left: 15px;
+        margin-top: 20px;
+    }
+
+    .KeskiviikkoMenu{
+        margin-top: 20px;
+    }
+
+    .PerjantaiMenu{
+        margin-top: 20px;
+    }
+
+
+}
+
 
 
 
