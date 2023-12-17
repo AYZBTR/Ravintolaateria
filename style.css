@@ -150,7 +150,7 @@
     color: red;
     
 }
-.content-section-desc{
+/* .content-section-desc{
     margin-top: 1rem;
     margin-left: 2%;
 
@@ -161,8 +161,8 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     
-}
-@media screen and (max-width:600px){
+} */
+/* @media screen and (max-width:600px){
     .content-section{
         flex-direction: column;
         align-items: center;
@@ -171,24 +171,24 @@
     }
 
     
-}
-.box{
+} */
+/* .box{
     height: 250px;
     width: 28%;
     background-color: brown;
     padding: 2rem 0 1.5rem;
     margin-top: 1rem;
-}
+} */
 
-.box-image{
+/* .box-image{
     height: 200px;
     width: 10px;
     background-size: cover;
     margin-top: 1rem;
     margin-bottom: 1rem;  
-} 
+}  */
 
-@media screen and (max-width:600px){
+/* @media screen and (max-width:600px){
     .content-section{
         flex-direction: column;
         align-items: center;
@@ -211,7 +211,15 @@
         margin-bottom: 1rem;  
     } 
     
-}
+} */
+
+/*  .carousel-inner{
+     height: 450px;
+    width: 450px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
 
 
 
@@ -445,10 +453,53 @@ footer {
  }
 .resturantImages4 .resturantImages5{
     display: block;
+    align-items: center; 
+}
+.location{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 30px;
+}
+
+.googleMap{
+    display: flex;
     align-items: center;
+    justify-content: flex-end;
+    margin-right: 30px;
     
 }
 
+.contactForm{
+    position: absolute;
+    width:100%;
+    
+}
+
+@media screen and (max-width:600px){
+    .contactForm{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        width: fit-content;
+    }
+    .googleMap{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        height: 50vh;
+        width: 100%;
+        margin-right: 30px;
+        
+    }
+    .location{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
 
 
 
