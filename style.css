@@ -338,6 +338,7 @@ footer {
 
 .Allmenus{
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
 }
 .MaanantaiMenu{
@@ -345,7 +346,7 @@ footer {
 }
 
 .TiistaiMenu{
-    margin-left: 80px;
+    margin-left: 15px;
     
     
 }
@@ -355,7 +356,7 @@ footer {
 }
 
 .TorstaiMenu{
-    margin-left: 80px;
+    margin-left: 15px;
     
 }
 .PerjantaiMenu{
@@ -378,6 +379,54 @@ footer {
     }
 
 
+}
+
+.shortcuts{
+    display: flex;
+    justify-content: flex-start;
+    gap: 20vw;
+    line-height: 0.5;
+    
+}
+.div1{
+    display: inline-flex;
+    /* justify-content: center; */
+    align-items: center;
+    
+}
+.div2{
+    display: inline-flex;
+    /* justify-content: center; */
+    align-items: center;
+    
+}
+.shortcuts1{
+   
+    display: flex;
+    flex-direction: column;
+}
+.shortcuts2{
+    display: flex;
+    flex-direction: column;
+}
+.dietIcon{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 32px;
+   height: 32px;
+   border-radius: 50%;
+   background-color: #8a8888;
+   color: black;
+    font-size: larger;
+    margin-right: 10px;
+}
+@media screen and (max-width : 600px){
+    .shortcuts{
+        flex-direction: column;
+        gap: 0;
+    }
+    
 }
 
 
