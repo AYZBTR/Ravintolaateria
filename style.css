@@ -429,6 +429,26 @@ footer {
     
 }
 
+.imageMain{
+    display: block;
+    align-items: center;
+}
+.resturantImages{
+    height: 450px;
+    width: 450px;
+ }
+
+ .imageSec{
+    margin-top: 10px;
+    display: block;
+    align-items: center;
+ }
+.resturantImages4 .resturantImages5{
+    display: block;
+    align-items: center;
+    
+}
+
 
 
 
